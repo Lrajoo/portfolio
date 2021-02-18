@@ -3,7 +3,7 @@
 	"name": "Create React App Sample",
 	"icons": [
 		{
-			"src": "favicon.jpeg",
+			"src": "https://portfolio-lrajoo.s3.us-east-2.amazonaws.com/profile.jpeg",
 			"sizes": "64x64 32x32 24x24 16x16",
 			"type": "image/x-icon"
 		}

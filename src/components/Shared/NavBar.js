@@ -29,7 +29,7 @@ class NavBar extends Component {
 											marginRight: '10px'
 										}}
 										alt="Profile"
-										src={Profile}
+										src="https://portfolio-lrajoo.s3.us-east-2.amazonaws.com/profile.jpeg"
 									/>
 									Lingess Rajoo
 								</h2>
