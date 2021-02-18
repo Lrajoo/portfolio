@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import resume from '../../assets/files/resumeLrajoo.pdf';
 import { colorScheme } from '../../constants/colors';
 import Profile from '../../assets/images/profile.jpeg';
+import { FilePdfOutlined } from '@ant-design/icons';
 
 class NavBar extends Component {
 	render() {
@@ -15,11 +16,11 @@ class NavBar extends Component {
 					backgroundColor: colorScheme.beige
 				}}
 			>
-				<Col span={12}>
+				<Col xs={14} sm={12}>
 					<Row justify="start">
 						<Col>
 							<Link to="/">
-								<h2 style={{ margin: '0 40px', color: colorScheme.blue }}>
+								<h2 style={{ margin: '0 20px', color: colorScheme.blue, fontFamily: 'Cormorant Garamond' }}>
 									<img
 										style={{
 											width: '30px',
@@ -36,11 +37,14 @@ class NavBar extends Component {
 						</Col>
 					</Row>
 				</Col>
-				<Col span={12}>
+				<Col xs={10} sm={12}>
 					<Row justify="end">
 						<Col>
 							<a href={resume} rel="noopener noreferrer" target="_blank">
-								<h2 style={{ margin: '0 40px', color: colorScheme.blue }}>Resume</h2>
+								<h2 style={{ margin: '0 20px', color: colorScheme.blue, fontFamily: 'Cormorant Garamond' }}>
+									<FilePdfOutlined style={{ color: colorScheme.blue, fontSize: '20px', marginRight: '10px' }} />
+									Resume
+								</h2>
 							</a>
 						</Col>
 					</Row>

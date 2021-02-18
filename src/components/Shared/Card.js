@@ -6,6 +6,9 @@ import { colorScheme } from '../../constants/colors';
 const MainCard = styled(Card)`
 	width: 240;
 	border: 0px;
+	:hover {
+		cursor: default;
+	}
 `;
 
 export const DisplayCard = (props) => {
@@ -57,14 +60,36 @@ export const DisplayCard = (props) => {
 
 			{props.content && props.mainCard && (
 				<div style={{ textAlign: 'center' }}>
-					<h1 style={{ color: props.titleColor, margin: '0', fontWeight: 'bold' }}>{props.title}</h1>
-					<h2 style={{ color: props.descriptionColor, margin: '0 0 5px 0' }}>{props.description}</h2>
+					<h1 style={{ color: props.titleColor, margin: '0', fontWeight: 'bolder', fontFamily: 'Cormorant Garamond' }}>
+						{props.title}
+					</h1>
+					<h2
+						style={{
+							color: props.descriptionColor,
+							margin: '0 0 5px 0',
+							fontWeight: 'bolder',
+							fontFamily: 'Cormorant Garamond'
+						}}
+					>
+						{props.description}
+					</h2>
 				</div>
 			)}
 			{props.content && !props.mainCard && (
 				<div style={{ textAlign: 'center' }}>
-					<h3 style={{ color: props.titleColor, margin: '0', fontWeight: 'bold' }}>{props.title}</h3>
-					<h4 style={{ color: props.descriptionColor, margin: '0 0 5px 0' }}>{props.description}</h4>
+					<h3 style={{ color: props.titleColor, margin: '0', fontWeight: 'bold', fontFamily: 'Cormorant Garamond' }}>
+						{props.title}
+					</h3>
+					<h4
+						style={{
+							color: props.descriptionColor,
+							margin: '0 0 5px 0',
+							fontWeight: 'bold',
+							fontFamily: 'Cormorant Garamond'
+						}}
+					>
+						{props.description}
+					</h4>
 				</div>
 			)}
 		</DisplayCardComponent>

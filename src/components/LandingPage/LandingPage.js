@@ -28,7 +28,7 @@ class LandingPage extends Component {
 					<Row align="middle" style={{ height: 'calc(100vh - 50px)' }}>
 						<Col>
 							<Row justify="center" align="bottom">
-								<Col span={3}>
+								<Col xs={0} sm={3}>
 									<DisplayCard
 										img={Flockjay}
 										margin="0 5px 10px 0"
@@ -40,7 +40,7 @@ class LandingPage extends Component {
 										descriptionColor={colorScheme.white}
 									/>
 								</Col>
-								<Col span={3}>
+								<Col xs={0} sm={3}>
 									<DisplayCard
 										img={AWSCertification}
 										margin="0 0 10px 5px"
@@ -50,7 +50,7 @@ class LandingPage extends Component {
 								</Col>
 							</Row>
 							<Row justify="center">
-								<Col span={3}>
+								<Col xs={0} sm={3}>
 									<Row>
 										<Col span={24}>
 											<DisplayCard
@@ -78,7 +78,7 @@ class LandingPage extends Component {
 										</Col>
 									</Row>
 								</Col>
-								<Col span={6}>
+								<Col xs={18} sm={6}>
 									<DisplayCard
 										img={Profile}
 										content
@@ -90,7 +90,7 @@ class LandingPage extends Component {
 										descriptionColor={colorScheme.beige}
 									/>
 								</Col>
-								<Col span={3}>
+								<Col xs={0} sm={3}>
 									<Row>
 										<Col span={12}>
 											{/* <DisplayCard img={Profile} margin="0 0 5px 10px" backgroundColor={colorScheme.grey} /> */}
@@ -114,17 +114,17 @@ class LandingPage extends Component {
 								</Col>
 							</Row>
 							<Row justify="center" style={{ marginTop: '10px' }}>
-								<Col span={2}>
+								<Col xs={6} sm={2}>
 									<Row justify="center">
 										<SocialIcon iconType="linkedin" />
 									</Row>
 								</Col>
-								<Col span={2}>
+								<Col xs={6} sm={2}>
 									<Row justify="center">
 										<SocialIcon iconType="mail" />
 									</Row>
 								</Col>
-								<Col span={2}>
+								<Col xs={6} sm={2}>
 									<Row justify="center">
 										<SocialIcon iconType="github" />
 									</Row>
