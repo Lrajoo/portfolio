@@ -53,7 +53,7 @@ export const DisplayCard = (props) => {
 						borderTopLeftRadius: props.content && '10px',
 						borderTopRightRadius: props.content && '10px'
 					}}
-					alt="Profile"
+					alt={props.alt}
 					src={props.img}
 				/>
 			</div>

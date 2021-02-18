@@ -26,11 +26,12 @@ class LandingPage extends Component {
 				<Col span={24}>
 					<NavBar />
 					<Row align="middle" style={{ height: 'calc(100vh - 50px)' }}>
-						<Col>
+						<Col span={24}>
 							<Row justify="center" align="bottom">
 								<Col xs={0} sm={3}>
 									<DisplayCard
-										img={Flockjay}
+										img="https://portfolio-lrajoo.s3.us-east-2.amazonaws.com/flockjay.jpeg"
+										alt="Flockjay"
 										margin="0 5px 10px 0"
 										content
 										title="Flockjay Inc."
@@ -42,7 +43,8 @@ class LandingPage extends Component {
 								</Col>
 								<Col xs={0} sm={3}>
 									<DisplayCard
-										img={AWSCertification}
+										img="https://portfolio-lrajoo.s3.us-east-2.amazonaws.com/awsCertifiedCloudPractitioner.jpeg"
+										alt="AWS Cloud Practitioner"
 										margin="0 0 10px 5px"
 										padding="5px 0"
 										backgroundColor={colorScheme.grey}
@@ -54,7 +56,8 @@ class LandingPage extends Component {
 									<Row>
 										<Col span={24}>
 											<DisplayCard
-												img={Purdue}
+												img="https://portfolio-lrajoo.s3.us-east-2.amazonaws.com/purdue.jpeg"
+												alt="Purdue"
 												margin="0 10px 5px 0"
 												content
 												title="Purdue University"
@@ -68,7 +71,8 @@ class LandingPage extends Component {
 									<Row justify="end">
 										<Col span={12}>
 											<DisplayCard
-												img={Delft}
+												img="https://portfolio-lrajoo.s3.us-east-2.amazonaws.com/delft.jpeg"
+												alt="Delft"
 												margin="5px 10px 0 0"
 												padding="5px"
 												title="Delft University of Technology"
@@ -80,7 +84,8 @@ class LandingPage extends Component {
 								</Col>
 								<Col xs={18} sm={6}>
 									<DisplayCard
-										img={Profile}
+										img="https://portfolio-lrajoo.s3.us-east-2.amazonaws.com/profile.jpeg"
+										alt="Profile"
 										content
 										mainCard
 										title="Lingess Rajoo"
@@ -99,7 +104,8 @@ class LandingPage extends Component {
 									<Row>
 										<Col span={24}>
 											<DisplayCard
-												img={Steerwise}
+												img="https://portfolio-lrajoo.s3.us-east-2.amazonaws.com/steerwise.jpeg"
+												alt="Steerwise"
 												margin="5px 0 0 10px"
 												content
 												currentJob

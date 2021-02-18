@@ -40,7 +40,11 @@ class NavBar extends Component {
 				<Col xs={10} sm={12}>
 					<Row justify="end">
 						<Col>
-							<a href={resume} rel="noopener noreferrer" target="_blank">
+							<a
+								href="https://portfolio-lrajoo.s3.us-east-2.amazonaws.com/resumeLrajoo.pdf"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
 								<h2 style={{ margin: '0 20px', color: colorScheme.blue, fontFamily: 'Cormorant Garamond' }}>
 									<FilePdfOutlined style={{ color: colorScheme.blue, fontSize: '20px', marginRight: '10px' }} />
 									Resume
